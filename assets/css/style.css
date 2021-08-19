@@ -111,6 +111,33 @@ header nav ul li a {
 
 .all-about-me {
     color: var(--secondary-color);
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.about-me-title {
+    margin: 0 0 60px 60px;
+    padding: 0 15px 0 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    float: right;
+}
+
+.about-me-text {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 80px 10px 50px;
+    float: left;
+    border-left-style: solid;
+    border-left-color: var(--secondary-color);
+    border-left-width: 5px;
+  }
 
  /* About Me Section Ends */
