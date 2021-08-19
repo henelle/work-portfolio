@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #dddddd;
+    --primary-color: #daebec;
     --secondary-color: #3d5664;
     --tertiary-color: #75bec4;
 }
@@ -18,7 +18,7 @@ body {
 /* Header Style Start */
 
 header {
-    padding: 20px 35px;
+    padding: 20px 35px 20px 0;
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
@@ -27,11 +27,14 @@ header {
 
 header h1 {
     font-weight: bold;
+    padding: 6px;
     margin: 0;
-    font-size: 36px;
+    font-size: 40px;
     color: var(--secondary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: var(--tertiary-color);
+    border-left-style: solid;
+    border-left-width: 100px;
+    border-left-color: var(--tertiary-color);
 }
 
 header a {
@@ -55,7 +58,6 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .underline:after {
@@ -74,24 +76,33 @@ header nav ul li a {
 
 .hero {
     background-image: url('../images/header.jpg');
+    height: 200px;
+    width: 100%;
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
+    position: relative;
 }
 
-.hero h2{
-    padding: 10px 15px;
-    width: 40%;
-    text-align: right;
+.hero-title h2 {
+    padding: 4px;
+    width: 15%;
+    text-align: center;
     margin: 6%;
     color: var(--secondary-color);
     font-size: 30px;
     line-height: 1.2;
     background-color: var(--tertiary-color);
-}
+    position: absolute;
+    top: 45px;
+    right: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
 
-/* Jumbotron End */
+ /* Jumbotron End */
