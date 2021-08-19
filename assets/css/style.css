@@ -143,4 +143,42 @@ header nav ul li a {
  /* About Me Section Ends */
 
  /* Footer Starts*/
+
+.footer {
+    display: flex;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 40px 40px 10px;
+    margin: 20px;
+}
+
+.footer-title {
+    margin: 0 0 20px 30px;
+    padding: 0 15px 0 20px;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: right;
+    float: right;
+    border-right-style: solid;
+    border-right-color: var(--secondary-color);
+    border-right-width: 5px;
+}
+
+.footer-contact {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer a:link {
+    color: var(--secondary-color);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer a:visited {
+    color: var(--tertiary-color);
+}
+
  /* Footer Ends */
