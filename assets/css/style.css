@@ -186,6 +186,10 @@ header nav ul li a {
     background-color: var(--tertiary-color);
 }
 
+.work-section-box img:hover {
+    opacity: 0.5;
+}
+
 .bio-one {
     position: absolute;
     top: 500px;
