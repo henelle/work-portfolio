@@ -260,3 +260,18 @@ header nav ul li a {
 }
 
  /* Footer Ends */
+
+ /* Media Queries Start */
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
+ /* Media Queries End */
