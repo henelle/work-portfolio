@@ -13,4 +13,4 @@ https://henelle.github.io/work-portfolio/
 ### Created by Hien Nguyen
 
 ### Screenshot
-![Alt text](./assets/images/screenshot.png?raw=true "Website Screenshot")
+![Alt text](./assets/images/Screenshot.png?raw=true "Website Screenshot")
