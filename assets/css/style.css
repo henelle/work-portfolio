@@ -263,7 +263,7 @@ header nav ul li a {
 
  /* Media Queries Start */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 980px) {
     header {
         padding: 0;
         justify-content: center;
@@ -285,13 +285,14 @@ header nav ul li a {
     }
 
     header nav ul li a {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .hero-title h2 {
         width: 100%;
         justify-content: center;
         text-align: center;
+        align-items: center;
         flex: 0 100%;
     } 
 
@@ -321,14 +322,19 @@ header nav ul li a {
 
     .work-section-projects {
         flex: 0 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
     }
 
     .work-section, .work-section-box {
-        padding: 0;
-        margin: 0 auto;
-        flex: 0 100%;
+        padding: 10px;
+        margin: 20px;
+        flex: 1 70%;
         justify-content: center;
-     }
+    }
 
     .bio-one {
         top: 100px;
@@ -336,8 +342,8 @@ header nav ul li a {
     }
 
     .work-section-box img {
-        width: 462px;
-        height: 205px;
+        width: 620px;
+        height: 305px;
         padding: 2px;
         margin: 2px;
     }
@@ -357,6 +363,22 @@ header nav ul li a {
 }
 
 @media screen and (max-width: 768px) {
+
+    header nav ul li a {
+        font-size: 30px;
+    }
+
+    .hero-title h2 {
+        font-size: 35px;
+    }
+
+    .about-me-text {
+        font-size: 25px;
+    }
+    .footer-contact {
+        font-weight: bold;
+        font-size: 35px;
+    }
 
 }
 
