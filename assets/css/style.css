@@ -142,6 +142,84 @@ header nav ul li a {
 
  /* About Me Section Ends */
 
+ /* Work Section Starts */
+
+ .work-section {
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+.work-section-title {
+    color: var(--secondary-color);
+    margin: 0 0 70px 85px;
+    padding: 0 15px 0 20px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: right;
+    float: right;
+}
+
+.work-section-projects {
+    flex: 2 70%;
+    display: inline-block;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 80px 10px 50px;
+    float: left;
+    border-left-style: solid;
+    border-left-color: var(--secondary-color);
+    border-left-width: 5px;
+}
+
+.work-section-box {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: var(--tertiary-color);
+    border-width: 5px;
+    background-color: var(--tertiary-color);
+}
+
+.bio-one {
+    position: absolute;
+    top: 500px;
+    left: -2px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+}
+
+.bio-two {
+    position: absolute;
+    top: 100px;
+    left: -2px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+}
+
+.bio p{
+    background-color: var(--tertiary-color);
+}
+
+.second {
+    font-size: 18px;
+}
+
+ /* Work Section Ends */
+
  /* Footer Starts*/
 
 .footer {
